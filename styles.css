@@ -1,0 +1,60 @@
+/* "Tom MacDonald" */
+#title {
+    font-family: 'Kalam';
+    color: teal;
+    background-color: tan;
+    height: 50px;
+    padding: 30px 20px;
+    font-size: 120%;
+    /* text-shadow: 5px 5px black; */ 
+    font: bold;
+}
+#title1 {
+    font-size: 1.5rem;
+    font-family: 'Kalam';
+    text-align: center;
+    letter-spacing: 3px;
+    background-color: tan;
+    color: teal;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: gainsboro;
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'Caveat', cursive;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#videoText {
+    font-size: 50px;
+    color: red;
+}
+#contact {
+    font-size: 30px;
+}
+#info {
+    margin-left: 10%;
+    margin-top: 5%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aquamarine;
+    font-size: 30px;
+}
+#skull1 {
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#skull2 {
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
