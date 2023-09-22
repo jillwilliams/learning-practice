@@ -59,3 +59,98 @@ body {
     border: 2px solid black;
     border-radius: 10px;
 }
+
+/* palm springs */
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+    /* distance between photos */
+    margin: 0px 40px;
+    padding: 40px;
+    
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    /*dist between top to bottom photo */
+    margin: 20px;
+    
+    
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+.desc1 {
+    padding: 15px;
+    text-align: center;
+}
+
+/* wallowa img */
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    /* left side of wallowa picture*/
+    padding-left: 150px;
+    
+    
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    /*dist between top to bottom photo */
+    margin: 20px;
+    
+    
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+.desc2 {
+    padding: 15px;
+    text-align: center;
+}
+/* cannon beach */
+
+.dropdown3 {
+    position: relative;
+    display: inline-block;
+    
+    
+}
+
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    /*dist between top to bottom photo */
+    margin: 20px;
+    
+    
+}
+
+.dropdown3:hover .dropdown-content3 {
+    display: block;
+}
+
+.desc3 {
+    padding: 15px;
+    text-align: center;
+}
