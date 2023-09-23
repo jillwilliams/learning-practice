@@ -1,14 +1,15 @@
 /* "Tom MacDonald" */
 #title {
     font-family: 'Kalam';
-    color: teal;
+    color: black;
     background-color: tan;
     height: 50px;
     padding: 30px 20px;
-    font-size: 120%;
-    /* text-shadow: 5px 5px black; */ 
-    font: bold;
+    font-size: 140%; 
+    font: bold;  
+    border: 2px solid black;
 }
+/* horiz. nav bar */
 #title1 {
     font-size: 1.5rem;
     font-family: 'Kalam';
@@ -16,7 +17,68 @@
     letter-spacing: 3px;
     background-color: tan;
     color: teal;
+    height: 50px;
+    padding: 30px 20px;
+    font-size: 30%; 
+}  
+/* horizontal nav bar */
+#title2 {
+    font-size: 1.5rem;
+    font-family: 'Kalam';
+    /* text-align: center; */
+    letter-spacing: 3px;
+    background-color: tan;
+    color: black;
+    height: 50px;
+    width: 100%;
+    padding: 40px 40px;
+    margin: 0px;
+    font-size: 30px;
+}  
+/* vertical nav bar */
+ul {
+    list-style-type: none;
+    margin: 40px 20px;
+    padding: 0px;
+    width: 200px;
+    background-color: tan;
+    border: 1px solid black;
+    /*position: fixed;*/
+    font-family: 'Kalam';
+    font: 60px;
 }
+
+li a {
+    display: block;
+    color: black;
+    padding: 20px 16px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: aquamarine;
+    color: black;
+}
+/* .active {
+    background-color: #04AA6D;
+    color: white;
+} */
+li:last-child {
+    border-bottom: none;
+}
+/* videos */
+#songs {
+    margin-top: -400px;
+}
+
+
+
+
+
+
 
 body {
     width: 100%;
