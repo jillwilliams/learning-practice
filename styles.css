@@ -19,10 +19,11 @@
     background-color: tan;
     color: black;
     height: 50px;
-    width: 100%;
+    width: 40rem;
     padding: 40px 40px;
     margin: 0px;
     font-size: 30px;
+    text-decoration: none;
 }  
 /* vertical nav bar */
 ul {
@@ -60,7 +61,7 @@ li:last-child {
 }
 /* videos */
 #songs {
-    margin-top: -100px;
+    margin-top: -30px;
 }
 
 
